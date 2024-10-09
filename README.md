@@ -26,16 +26,15 @@ After this go back and try step 4 again.
 
 5. There are many different frameworks to use, for this tutorial we’ll use Next.js from https://ui.shadcn.com/docs/installation
 
-![Framework Image](framwork.png)
-
-You’ll then get a few options if you don’t want default options
-
-To add this shad/cn’s capabilities to our app we run
+To add shad/cn’s capabilities to our app we run
 npx shadcn@latest init	(choose npm)
 (You can use the -d flag for defaults i.e new-york, zinc and yes for the css variables.
 ex: npx shadcn@latest init -d
 
+![Framework Image](framwork.png)
+
 You’ll then get a few options if you don’t want default options
+
 6. After that you can use components from the shad/cn website by going to the component section from the website and copying the command into your terminal
 
 ![Component Image](component.png)
