@@ -1,17 +1,24 @@
 How to Start Development of a Web App Using a T3 Stack
 
+Have you ever wanted to create a web app and have no idea where to start? If that's the case you can start your journey with this guide that will instruct you on how to get started developing your first web app using a toolbox that I've spent months selecting. 
+
+Things to download before you start:
+A code editor such as Visual Studio Code or Cursor
+node.js
+
+
 1.First navigate to your desktop and right click an open space. 
 
-2. Make a new folder on your computer named whatever you want your project to be named. I’ll be naming mine “test”.
+2. Make a new folder on your computer named whatever you want your project to be named. I’ll be naming mine “test” as shown in the image below.
 
 ![Test Folder Image](test%20folder.png)
 
-3. Use any code editor such as Visual Studio Code or Cursor, I recommend using Visual Studio for beginners. Open the folder we just made with your code editor, then open the terminal. You can do this by either using CTRL+Shift+P and searching for terminal, or by using the shortcut which is `+P
+3. Use your code editor, I recommend using Visual Studio for beginners. Open the folder we just made with your code editor, then open the terminal. You can do this by either using CTRL+Shift+P and searching for terminal, or by using the shortcut which is `+P
 
 4. Run the this command to download the files and create a t3 stack
 npm create t3-app@latest(If you don’t have node.js you’ll need to install it here https://nodejs.org/en )
 
-4.5 Only if you’re still having issues with installing node.js
+4.5 Help for if you’re still having issues with installing node.js
 
 
 If you’re still getting an error that the module is missing:
@@ -34,6 +41,7 @@ ex: npx shadcn@latest init -d
 ![Framework Image](framwork.png)
 
 You’ll then get a few options if you don’t want default options
+These options are for styling your website and changing things like the theme or fonts. 
 
 6. After that you can use components from the shad/cn website by going to the component section from the website and copying the command into your terminal
 
