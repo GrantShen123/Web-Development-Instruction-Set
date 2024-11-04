@@ -51,24 +51,9 @@ These options are for styling your website and changing things like the theme or
 ![Component Image](component.png)
 
 7. To add these components you can import them with "import { Button } from "~/components/ui/button";" and then call it in your code!
-ex:import React from 'react';
-import Button from '~/components/ui/Button';
-
-const HomePage = () => {
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-
-  return (
-    <div>
-      <h1>Welcome to My T3 Stack App</h1>
-      <Button label="Click Me" onClick={handleClick} />
-    </div>
-  );
-};
-
-export default HomePage;
    
+![button code](images/Screenshot%202024-11-04%20at%203.27.12%20PM.png)
+ 
 
 8. Now you can edit files and run your app on your local host by running ‘npm run dev’ and in your terminal and then going to http://localhost:3000
 
