@@ -25,7 +25,7 @@ If you’re still getting an error that the module is missing:
 You need to Add C:\Program Files\nodejs to your PATH environment variable. To do this follow these steps:
 Use the global Search Charm to search "Environment Variables"
 
-![Screenshot 2024-11-04 at 3.09.37 PM](Screenshot 2024-11-04 at 3.09.37 PM.png)
+![search charm](images/Screenshot%202024-11-04%20at%203.09.37%20PM.png)
 
 Click "Edit system environment variables"
 Click "Environment Variables" in the dialog.
@@ -46,11 +46,28 @@ ex: npx shadcn@latest init -d
 You’ll then get a few options if you don’t want default options
 These options are for styling your website and changing things like the theme or fonts. 
 
-6. After that you can use components from the shad/cn website by going to the component section from the website and copying the command into your terminal
+6. After that you can use components from the shad/cn website by going to the component section from the website and copying the command into your terminal. In the image below you can see the button component and the command to install it. 
 
 ![Component Image](component.png)
 
 7. To add these components you can import them with "import { Button } from "~/components/ui/button";" and then call it in your code!
+ex:import React from 'react';
+import Button from '~/components/ui/Button';
+
+const HomePage = () => {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+
+  return (
+    <div>
+      <h1>Welcome to My T3 Stack App</h1>
+      <Button label="Click Me" onClick={handleClick} />
+    </div>
+  );
+};
+
+export default HomePage;
    
 
 8. Now you can edit files and run your app on your local host by running ‘npm run dev’ and in your terminal and then going to http://localhost:3000
