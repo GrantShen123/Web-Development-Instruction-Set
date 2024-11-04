@@ -52,7 +52,7 @@ These options are for styling your website and changing things like the theme or
 
 7. To add these components you can import them with "import { Button } from "~/components/ui/button";" and then call it in your code!
    
-![button code](images/Screenshot%202024-11-04%20at%203.27.12%20PM.png)
+![button code](Screenshot%202024-11-04%20at%203.27.12%20PM.png)
  
 
 8. Now you can edit files and run your app on your local host by running ‘npm run dev’ and in your terminal and then going to http://localhost:3000
