@@ -24,6 +24,9 @@ npm create t3-app@latest(If you don’t have node.js you’ll need to install it
 If you’re still getting an error that the module is missing:
 You need to Add C:\Program Files\nodejs to your PATH environment variable. To do this follow these steps:
 Use the global Search Charm to search "Environment Variables"
+
+![Screenshot 2024-11-04 at 3.09.37 PM](Screenshot 2024-11-04 at 3.09.37 PM)
+
 Click "Edit system environment variables"
 Click "Environment Variables" in the dialog.
 In the "System Variables" box, search for Path and edit it to include C:\Program Files\nodejs. Make sure it is separated from any other paths by a ;.
