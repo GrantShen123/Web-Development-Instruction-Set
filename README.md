@@ -25,7 +25,7 @@ If you’re still getting an error that the module is missing:
 You need to Add C:\Program Files\nodejs to your PATH environment variable. To do this follow these steps:
 Use the global Search Charm to search "Environment Variables"
 
-![Description of image](seachcharm.png)
+![search charm](searchcharm.png)
 
 
 Click "Edit system environment variables"
